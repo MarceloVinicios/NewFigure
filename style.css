@@ -63,10 +63,12 @@ body {
   border-radius: 0.25rem;
   font: 500 1rem var(--body-font);
   transition: background 0.3s;
+  transform: translateX(0) scale(1);
 }
 
 .button:hover {
   background: var(--base-color-alt);
+  transform: translateX(0) scale(1.1);
 }
 
 .divider-1 {
